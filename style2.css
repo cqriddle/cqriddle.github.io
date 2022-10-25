@@ -1,0 +1,54 @@
+
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Barlow Condensed';
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav {
+	list-style: none;
+	display: inline-block;
+	font-family: 'Barlow Condensed' sans-serif;
+	font-size: 1em;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	font-family: 'Barlow Condensed' sans-serif;
+	font-size: 2em;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.bio {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	border: 10px;
+	margin: 20px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.75); 
+
+}
+
+
+.links {
+	list-style: none;
+	font-family: 'Barlow Condensed' sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	
+}
+
+a:link {
+	text-decoration: none;
+	color: #0DD00D;
+}
